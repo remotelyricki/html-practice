@@ -6,39 +6,116 @@
   </head>
 
   <body>
-    <!-- Headings -->
-    <h1>Heading One</h1>
-    <h2>Heading Two</h2>
-    <h3>Heading Three</h3>
-    <h4>Heading Four</h4>
-    <h5>Heading Five</h5>
-    <h6>Heading Six</h6>
+    <!-- page title -->
+    <h1><strong>HTML Reference</strong></h1>
+    <p>This webpage is made only using HTML. This is meant as a guide to anyone who may need a quick reference to glance at while coding.</p>
+    <p><mark>All code will be highlighted like this.</mark></p>
 
-        <!-- Break -->
-    <!-- Line Space -->
+    <hr><br>
+
+    <!-- Section One: Formatting an HTML Document -->
+    <h3>Formatting an HTML Document</h3>
+    <p>Every HTML document must have the same basic layout</p>
     <br>
+    <p><mark>&lt;!DOCTYPE html&gt;</mark></p>
+    <p><mark>&emsp;&lt;html&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&lt;head&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;title&gt;HTML Reference&lt;/title&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&lt;/head&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&lt;body&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;h1&gt;HTML&lt;/h1&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;p&gt;HyperText Markup Language&lt;/p&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&lt;/body&gt;</mark></p>
+    <p><mark>&emsp;&lt;/html&gt;</mark></p>
 
-    <!-- Horizontal Rule -->
-    <!-- Line across the page -->
+    <br>
     <hr>
     <br>
-    <!-- utilizing these tags to space out topics without the use of CSS -->
 
-    <!-- Paragraphs and More Tags -->
-    <p>
-      <strong>This is bold</strong>
-      <em>This is italicized</em>
-      <!-- the a tag is for links and the target="_blank" opens the link in a new tab so the user isnt redirected off of your page -->
-      <a href="https://rubberduckdebugging.com/" target ="_blank">Rubber Duck Debugging</a>
-    </p>
-    <p>This text is on a new line because it is in a new p tag</p>
+    <!-- Section Two: Headings -->
+    <h3><strong>Headings</strong></h3>
+    <p>There are many different headings you can use for HTML. Headings are text in HTML with pre-assigned styling. You can change these in your CSS. There are six levels of heading tags in HTML as are shown below. The largest is the h1 tag and that goes down to the smallest h6 tag. The code is written below each heading.</p>
+    <br>
+    <h1>Heading One</h1>
+    <p><mark>&lt;h1&gt;Heading One&lt;/h1&gt;</mark></p>
+    <br>
+    <h2>Heading Two</h2>
+    <p><mark>&lt;h2&gt;Heading Two&lt;/h2&gt;</mark></p>
+    <br>
+    <h3>Heading Three</h3>
+    <p><mark>&lt;h3&gt;Heading Three&lt;/h3&gt;</mark></p>
+    <br>
+    <h4>Heading Four</h4>
+    <p><mark>&lt;h4&gt;Heading Four&lt;/h4&gt;</mark></p>
+    <br>
+    <h5>Heading Five</h5>
+    <p><mark>&lt;h5&gt;Heading Five&lt;/h5&gt;</mark></p>
+    <br>
+    <h6>Heading Six</h6>
+    <p><mark>&lt;h6&gt;Heading Six&lt;/h6&gt;</mark></p>
 
+    <br>
+    <hr>
+    <br>
+
+    <!-- Section Three: Text and Miscellaneous Tags -->
+    <h3>Text and Miscellaneous Tags</h3>
+    <br>
+    <h4>P Tag</h4>
+    <p>The p tag is used often in HTML for writing a block of regular text. This block of text is currently being written in a p tag.</p>
+    <p><mark>&lt;p&gt;This is a regular p tag.&lt;/p&gt;</mark></p>
+    <p>The output for this code will look like:</p>
+    <p>This is a regular p tag.</p>
+
+    <br> 
+    <h4>Strong Tag</h4>
+    <p>If you would like your words to appear <strong>bold</strong>, you need to use a strong tag.</p>
+    <p><mark>&lt;p&gt;&lt;strong&gt;This sentence will appear as bold text.&lt;/strong&gt;&lt;/p&gt;</mark></p>
+    <p>The output for this code will look like:</p>
+    <p><strong>This sentence will appear as bold text.</strong></p>
+
+    <br>
+    <h4>Em Tag</h4>
+    <p>If you would like your words <em>italicized</em>, you will need to use the em tag.</p>
+    <p><mark>&lt;p&gt;&lt;em&gt;This sentence will appear as italicized text.&lt;/em&gt;&lt;/p&gt;</mark></p>
+    <p><em>This sentence will appear as italicized text.</em></p>
+
+    <br>
+    <h4>Mark Tag</h4>
+    <p>If you would like your words <em>highlighted</em> like I have been using for the code on this webpage, you will need to use the mark tag.</p>
+    <p><mark>&lt;p&gt;&lt;mark&gt;This sentence will appear as highlighted text.&lt;/mark&gt;&lt;/p&gt;</mark></p>
+    <p><mark>This sentence will appear as highlighted text.</mark></p>
+    <br>
+
+    <h4>Small Tag</h4>
+    <p>If you would like your words to appear <small>small</small>, you will need to use the small tag.</p>
+    <p><mark>&lt;p&gt;&lt;small&gt;This sentence will appear as highlighted text.&lt;/small&gt;&lt;/p&gt;</mark></p>
+    <p><small>This sentence will appear as small text.</small></p>
+
+    <br>
+    <h4>A Tag</h4>
+    <p>An a tag lets us use hyperlinks to connect one page to another. You use the href attribute to assign the hyperlink to the tag. If yous use a target attribute to equal _blank, it will open the hyperlink in a new tab when clicked. If not it will redirect from your page to the new one.</p>
+    <p><mark>&lt;a href="https://rubberduckdebugging.com/" target="_blank"&gt;Rubber Duck Debugging&lt;/a&gt;</mark></p>
+    <a href="https://rubberduckdebugging.com/" target ="_blank">Rubber Duck Debugging</a>
+
+    <br>
+    <h4>Buttons</h4>
+    <p>A button can be used in conjunction with JavaScript or some other language to perform an action, but for now we are just going to make a basic HTML button that does nothing except look like a button.</p>
+    <button>Click Me</button>
+    <p><mark>&lt;button&gt;Click Me&lt;/button&gt;</mark></p>
+
+
+    
     <br>
     <hr>
     <br>
 
     <!-- Lists -->
-    <!-- Unordered List -->
+    <!-- Section Four: Unordered List -->
+    <h3>Unordered Lists</h3>
+    <p>An unordered list is a list of words that appear as a bullet point list.</p>
+    <p>People most often use unordered lists to make their navigation bars using CSS to style them.</p>
+
     <ul>
         <li>Duck</li>
         <li>Snake</li>
@@ -46,11 +123,21 @@
         <li>Dog</li>
     </ul>
 
+    <p>Here is how you code it:</p>
+    <p><mark>&lt;ul&gt;</mark></p>
+    <p><mark>&emsp;&lt;li&gt;Duck&lt;/li&gt;</mark></p>
+    <p><mark>&emsp;&lt;li&gt;Snake&lt;/li&gt;</mark></p>
+    <p><mark>&emsp;&lt;li&gt;Cat&lt;/li&gt;</mark></p>
+    <p><mark>&emsp;&lt;li&gt;Dog&lt;/li&gt;</mark></p>
+    <p><mark>&lt;/ul&gt;</mark></p>
+
     <br>
     <hr>
     <br>
 
-    <!-- Ordered List -->
+    <!-- Section FIve: Ordered List -->
+    <h3>Ordered Lists</h3>
+    <p>An ordered list is a list of words that appear as a numbered list.</p>
     <ol>
         <li>A</li>
         <li>B</li>
@@ -58,11 +145,21 @@
         <li>D</li>
     </ol>
 
+    <p>Here is how you code it:</p>
+    <p><mark>&lt;ol&gt;</mark></p>
+    <p><mark>&emsp;&lt;li&gt;A&lt;/li&gt;</mark></p>
+    <p><mark>&emsp;&lt;li&gt;B&lt;/li&gt;</mark></p>
+    <p><mark>&emsp;&lt;li&gt;C&lt;/li&gt;</mark></p>
+    <p><mark>&emsp;&lt;li&gt;D&lt;/li&gt;</mark></p>
+    <p><mark>&lt;/ol&gt;</mark></p>
+
     <br>
     <hr>
     <br>
 
-    <!-- Table -->
+    <!-- Section Six: Tables -->
+    <h3>Tables</h3>
+    <p>HTML has a stylized table that you can use to organize data. It is a very simple format that can be stylized to meet your needs. Once upon a time people would use this to format their webpages, but that is not a standard practice and shouldn't be used anymore. This is for displaying data.</p>
     <table>
         <!-- Titles -->
         <thead>
@@ -94,67 +191,156 @@
             </tr>
         </tbody>
     </table>
+    <p><mark>&lt;table&gt;</mark></p>
+    <p><mark>&emsp;&lt;thead&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&lt;tr&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;th&gt;Restaurant&lt;/th&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;th&gt;Type&lt;/th&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;th&gt;Contact&lt;/th&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&lt;/tr&gt;</mark></p>
+    <p><mark>&emsp;&lt;/thead&gt;</mark></p>
+    <p><mark>&emsp;&lt;tbody&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&lt;tr&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;td&gt;5 Guys&lt;/td&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;td&gt;Burgers&lt;/td&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;td&gt;1-800-Burgers&lt;/td&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&lt;/tr&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&lt;tr&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;td&gt;Panera&lt;/td&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;td&gt;Soup and Salad&lt;/td&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;td&gt;1-800-Soup&lt;/td&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&lt;/tr&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&lt;tr&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;td&gt;Red Lobster&lt;/td&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;td&gt;Seafood&lt;/td&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&emsp;&lt;td&gt;1-800-Lobster&lt;/td&gt;</mark></p>
+    <p><mark>&emsp;&emsp;&lt;/tr&gt;</mark></p>
+    <p><mark>&emsp;&lt;/tbody&gt;</mark></p>
+    <p><mark>&lt;/table&gt;</mark></p>
+    
 
     <br>
     <hr>
     <br>
 
-    <!-- Forms -->
+    <!-- Section Seven: Forms -->
+    <h3>Forms</h3>
+    <p>There are many different styles you can use in your forms tag. Here are some examples:</p>
     <form>
+        <p>When you want text to return, put the input type set equal to text.</p>
         <label>Name</label>
         <input type="text" name="userName" placeholder="John Doe">
-        <br>
-        <!-- use type email so if they don't put a valid email address then it errors -->
+        <p><mark>&lt;form&gt;</mark></p>
+        <p><mark>&emsp;&lt;label&gt;Name&lt;/label&gt;</mark></p>
+        <p><mark>&emsp;&lt;input type="text" name="userName" placeholder="John Doe"&gt;</mark></p>
+        <p><mark>&lt;/form&gt;</mark></p>
+        <br><br>
+        
+        <p>When you want a valid email, set the type as email so you will return a valid email or it will error out before the user can send it.</p>
         <label>Email</label>
         <input type="email" name="userEmail" placeholder="jdoe@something.com">
-        <br>
+        <p><mark>&lt;form&gt;</mark></p>
+        <p><mark>&emsp;&lt;label&gt;Email&lt;/label&gt;</mark></p>
+        <p><mark>&emsp;&lt;input type="email" name="userEmail" placeholder="jdoe@something.com"&gt;</mark></p>
+        <p><mark>&lt;/form&gt;</mark></p>
+        <br><br>
+        <p>A phone number would be very similar to a name.</p>
         <label>Phone Number</label>
         <input type="text" name="userNumber" placeholder="123-456-7890">
-        <br>
+        <p><mark>&lt;form&gt;</mark></p>
+        <p><mark>&emsp;&lt;label&gt;Phone Number&lt;/label&gt;</mark></p>
+        <p><mark>&emsp;&lt;input type="text" name="userNumber" placeholder="123-456-7890"&gt;</mark></p>
+        <p><mark>&lt;/form&gt;</mark></p>
+        <br><br>
+        <p>For longer areas of text, instead of input as your tag, you will want to put textarea.</p>
         <label>Message</label>
         <textarea name="message" placeholder="Write your message here..."></textarea>
-        <br>
+        <p><mark>&lt;form&gt;</mark></p>
+        <p><mark>&emsp;&lt;label&gt;Message&lt;/label&gt;</mark></p>
+        <p><mark>&emsp;&lt;textarea name="message" placeholder="Write your message here..."&gt;&lt;/textarea&gt;</mark></p>
+        <p><mark>&lt;/form&gt;</mark></p>
+        <br><br>
+        <p>We can also include options to choose from within a form.</p>
         <label>Best Contact</label>
         <select name="bestContact">
             <option value="email">Email</option>
             <option value="call">Call</option>
             <option value="text">Text</option>
         </select>
-        <br>
-        <label>Age</label>
-        <input type="number" name="userAge" placeholder="25">
-        <br>
+        <p><mark>&lt;form&gt;</mark></p>
+        <p><mark>&emsp;&lt;select name="bestContact"&gt;</mark></p>
+        <p><mark>&emsp;&emsp;&lt;option value="email"&gt;Email&lt;/option&gt;</mark></p>
+        <p><mark>&emsp;&emsp;&lt;option value="call"&gt;Call&lt;/option&gt;</mark></p>
+        <p><mark>&emsp;&emsp;&lt;option value="text"&gt;Text&lt;/option&gt;</mark></p>
+        <p><mark>&emsp;&lt;/select&gt;</mark></p>
+        <p><mark>&lt;/form&gt;</mark></p>
+        <br><br>
+        <p>If you would like a date, HTML has a calendar that you can make appear by making the input type equal to date.</p>
         <label>Birthday</label>
         <input type="date" name="birthday">
-        <br>
+
+        <p><mark>&lt;form&gt;</mark></p>
+        <p><mark>&emsp;&lt;label&gt;Birthday&lt;/label&gt;</mark></p>
+        <p><mark>&emsp;&lt;input type="date" name="birthday"&gt;&lt;/input&gt;</mark></p>
+        <p><mark>&lt;/form&gt;</mark></p>
+        <br><br>
+        <p>If you add the input type as submit, it will create a button that you can assign value to using backend code.</p>
         <input type="submit" name="submit" value="Submit">
+
+        <p><mark>&lt;form&gt;</mark></p>
+        <p><mark>&emsp;&lt;input type="submit" name="submit" value="Submit"&gt;</mark></p>
+        <p><mark>&lt;/form&gt;</mark></p>
     </form>
 
     <br>
     <hr>
     <br>
 
-    <button>Click Me</button>
-
-    <br>
-    <hr>
-    <br>
-
-    <!-- You should have the image saved in your project file so you can just link to it locally -->
-    <!-- eg. <img src="sample.jpg"> if it is saved in the same file -->
-    <!-- You should have all images saved in an image folder to link to -->
-    <!--  eg. <img src="images/sample.jpg"> -->
+    <!-- Section 8: Images -->
+    <h3>Images</h3>
+    <p>You should have images saved locally so you can just call to them from a folder.</p>
+    <p>If they are not saved in a folder, you can put a hyperlink in the src attribute to link to an external image.</p>
+    
     <img src="https://ih1.redbubble.net/image.4546163640.3805/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="Rubber Duck" width="200">
+    <p><mark>&lt;img src="duck.jpg" alt="Rubber Duck" width="200"&gt;</mark></p>
+
 
     <br>
     <hr>
     <br>
 
-    <!-- Quotations -->
-    <blockquote cite="google.com">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam velit est totam consectetur corrupti vero voluptates possimus quod ipsam fuga, ab, delectus adipisci placeat illo at sapiente perspiciatis quisquam!</blockquote>
+    <!-- Section 9: Quotations -->
+    <h3>Quotations</h3>
+    <p> The first way to quote someone is using a blockquote. In a clockquote, you will just see the text on the screen. Even if you site to source in your code, it will not show up unless you pull up the code to see it.</p>
+    <blockquote cite="google.com">Lorem ipsum</blockquote>
+    <p><mark>&lt;blockquote cite="google.com"&gt;Lorem ipsum&lt;/blockquote&gt;</mark></p>
+    <br>
+    <p>The next way is to have an abbr tag so that you are able to hover over a text and see the citation or comment.</p>
 
     <p>I am learning <abbr title="HyperText Markup Language">HTML</abbr></p>
 
+    <p><mark>&lt;p&gt;I am learning &lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;&lt;/p&gt;</mark></p>
+    <br>
+    <p>The final way that I will talk about is the cite tag.</p>
     <p><cite>Hello World</cite> RemotelyRicki</p>
+
+    <p><mark>&lt;p&gt;&lt;cite&gt;Hello World&lt;/cite&gt; RemotelyRicki&lt;/p&gt;</mark></p>
+
+
+    <br><hr><br>
+    <!-- Section 10: Comments in HTML -->
+    <h3>Commenting in HTML</h3>
+    <p>In HTML and pretty much all other coding languages, you have the option to put comments in your code. This is text that you can see in your code, but it doesn't show up on the webpage that you are creating.</p>
+    <p>This can help a developer organize their work by titling each section of code, explaining what they are trying to attempt with the code, or even provide a placeholder with a description of what they intend to do in a particular section.</p>
+    <p>A comment in HTML appears in between these symbols &lt;!--    --&gt;</p>
+    <p>For Example:</p>
+    <p><mark>&lt;!-- This section has to do with commenting in HTML --&gt;</mark></p>
+    <br><hr><br>
+
+    <!-- Section 11: Other links -->
+    <h3>Check out my other HTML practice pages</h3>
+    <ul>
+        <li><a href="semanticTags.html" target ="_blank">Semantic Tags Page</a></li>
+    </ul>
   </body>
 </html>
